@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="display">
+        <div class="daytext" >
+          <p>Monday</p>
+        </div>
+        <div class="dateText">19</div>
+        <div class="monthText">oct</div>
+        <div class="yearText">2015</div>
+      </div>
+      <div class="calendar">
+        <div class="header">
+          <button id="prevButton">&lt</button>
+          <p class="monthYear"></p>
+          <button id="nextButton">&gt</button>
+        </div>
+        <div class="weekdays"></div>
+        <div id="daysContainer"></div>
+        <div class="buttons">
+          <button>cancel</button>
+          <button type="submit">save</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
